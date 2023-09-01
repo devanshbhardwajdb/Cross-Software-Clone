@@ -54,23 +54,23 @@ const Page2 = () => {
                 </div>
                 <div className='font-livvic card-container flex flex-col gap-2'>
                     <Image src={'/assets/images/strategize.jpg'} width={350} height={350} ></Image>
-                    <h2 className='text-[25px] font-medium'>Comprehension</h2>
-                    <h4>We get into your shoes to know your business better and work accordingly for an innovative leap</h4>
+                    <h2 className='text-[25px] font-medium'>Analysis</h2>
+                    <h4>We analyze cracked and potential zones and strategically form a viable action scheme for impressive mutation.</h4>
                 </div>
                 <div className='font-livvic card-container flex flex-col gap-2'>
                     <Image src={'/assets/images/create.jpg'} width={350} height={350} ></Image>
-                    <h2 className='text-[25px] font-medium'>Comprehension</h2>
-                    <h4>We get into your shoes to know your business better and work accordingly for an innovative leap</h4>
+                    <h2 className='text-[25px] font-medium'>Action</h2>
+                    <h4>From website design to optimization, we turn every stone that can make a marked difference in overall productivity.</h4>
                 </div>
                 <div className='font-livvic card-container flex flex-col gap-2'>
                     <Image src={'/assets/images/test.jpg'} width={350} height={350} ></Image>
-                    <h2 className='text-[25px] font-medium'>Comprehension</h2>
-                    <h4>We get into your shoes to know your business better and work accordingly for an innovative leap</h4>
+                    <h2 className='text-[25px] font-medium'>Review</h2>
+                    <h4>We are confident about our work quality but giving benefit of the doubt, we ensure to test the fruits of our efforts.</h4>
                 </div>
                 <div className='font-livvic card-container flex flex-col gap-2'>
                     <Image src={'/assets/images/improve.jpg'} width={350} height={350} ></Image>
-                    <h2 className='text-[25px] font-medium'>Comprehension</h2>
-                    <h4>We get into your shoes to know your business better and work accordingly for an innovative leap</h4>
+                    <h2 className='text-[25px] font-medium'>Improvement</h2>
+                    <h4>We settle on better than the best and make further improvements for an extraordinary service to our clients.</h4>
                 </div>
 
 

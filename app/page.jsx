@@ -1,4 +1,4 @@
-"use client"
+
 import React from 'react'
 import Image from 'next/image'
 import Page3 from './Page3/page'
@@ -6,33 +6,13 @@ import Page2 from './Page2/page'
 import Page5 from './Page5/page'
 import Page6 from './Page6/page'
 import Page4 from './Page4/page'
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { useEffect } from 'react';
+
 
 
 
 
 const Home = () => {
-  useEffect(() => {
-    gsap.registerPlugin(ScrollTrigger);
-    gsap.to("#arrow", {
-      opacity: 1,
-      duration: 0.5,
-      scrollTrigger: {
-        trigger: "#btn2",
-        scroller: "body",
-        // markers: true,
-        start: "top 70%",
-        end: "top 75%",
-        scrub: 1
-
-      }
-    });
-
-
-
-  }, [])
+  
 
 
   return (

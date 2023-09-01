@@ -16,17 +16,17 @@ const Navbar = () => {
         const drop3 = document.querySelector(".drop3");
 
 
-        btn.addEventListener('click',()=>{
+        btn.addEventListener('click', () => {
             drop3.classList.toggle("drop3-resp");
             line1.classList.toggle("line1-rot");
             line3.classList.toggle("line3-rot");
             line2.classList.toggle("line2-resp");
-            
+
 
         })
-      
-    
-      
+
+
+
     }, [])
 
     return (
@@ -46,41 +46,43 @@ const Navbar = () => {
                                 <h4 className='hover:text-blue-700 transition-all duration-400'>IT Solutions</h4>
                                 <i className="ri-arrow-down-s-fill"></i>
                             </div>
-                            <div className=' drop1 flex flex-row  bg-white justify-start gap-[250px] items-center p-5 pt-10 px-20'>
+                            <div className=' drop1 flex flex-row  bg-white justify-start gap-[200px] items-start p-5 pt-10 px-36'>
                                 <div className=' drop1-container flex flex-col gap-3'>
                                     <h2 className='text-xl'>Consultancy</h2>
                                     <Link href='#'><h4 >API Integration</h4></Link>
-                                    <Link href='#'><h4 >API Integration</h4></Link>
-                                    <Link href='#'><h4 >API Integration</h4></Link>
-                                    <Link href='#'><h4 >API Integration</h4></Link>
-                                    <Link href='#'><h4 >API Integration</h4></Link>
+                                    <Link href='#'><h4 >AWS</h4></Link>
+                                    <Link href='#'><h4 >Cloud Computing Services</h4></Link>
+                                    <Link href='#'><h4 >Artificial Intelligence</h4></Link>
+                                    <Link href='#'><h4 >Content Management</h4></Link>
 
                                 </div>
                                 <div className=' drop1-container flex flex-col gap-3'>
-                                    <h2 className='text-xl'>Consultancy</h2>
-                                    <Link href='#'><h4 >API Integration</h4></Link>
-                                    <Link href='#'><h4 >API Integration</h4></Link>
-                                    <Link href='#'><h4 >API Integration</h4></Link>
-                                    <Link href='#'><h4 >API Integration</h4></Link>
-                                    <Link href='#'><h4 >API Integration</h4></Link>
+                                    <h2 className='text-xl'>Designing</h2>
+                                    <Link href='#'><h4 >UX/UI Designing</h4></Link>
+                                    <Link href='#'><h4 >Branding</h4></Link>
+                                    <Link href='#'><h4 >Wireframes/Prototyping</h4></Link>
+                                    <Link href='#'><h4 >Packaging Designing</h4></Link>
+                                    <Link href='#'><h4 >Graphics & Illustration</h4></Link>
 
                                 </div>
                                 <div className=' drop1-container flex flex-col gap-3'>
-                                    <h2 className='text-xl'>Consultancy</h2>
-                                    <Link href='#'><h4 >API Integration</h4></Link>
-                                    <Link href='#'><h4 >API Integration</h4></Link>
-                                    <Link href='#'><h4 >API Integration</h4></Link>
-                                    <Link href='#'><h4 >API Integration</h4></Link>
-                                    <Link href='#'><h4 >API Integration</h4></Link>
+                                    <h2 className='text-xl'>Digital Marketing
+                                    </h2>
+                                    <Link href='#'><h4 >Product & Digital Innovation</h4></Link>
+                                    <Link href='#'><h4 >SEO/SMO/SMM</h4></Link>
+                                    <Link href='#'><h4 >Online Advert Campaign</h4></Link>
+                                    <Link href='#'><h4 >Content Writing</h4></Link>
+                                    <Link href='#'><h4 >Landing Page Management</h4></Link>
 
                                 </div>
                                 <div className=' drop1-container flex flex-col gap-3'>
-                                    <h2 className='text-xl'>Consultancy</h2>
-                                    <Link href='#'><h4 >API Integration</h4></Link>
-                                    <Link href='#'><h4 >API Integration</h4></Link>
-                                    <Link href='#'><h4 >API Integration</h4></Link>
-                                    <Link href='#'><h4 >API Integration</h4></Link>
-                                    <Link href='#'><h4 >API Integration</h4></Link>
+                                    <h2 className='text-xl'>Development
+                                    </h2>
+                                    <Link href='#'><h4 >Software Development</h4></Link>
+                                    <Link href='#'><h4 >Website Development</h4></Link>
+                                    <Link href='#'><h4 >E-Commerce Development</h4></Link>
+                                    <Link href='#'><h4 >CMS Development</h4></Link>
+                                    <Link href='#'><h4 >Mobile App Development</h4></Link>
 
                                 </div>
                             </div>
@@ -96,12 +98,12 @@ const Navbar = () => {
                             <div className=' drop2 flex flex-row  bg-white justify-start gap-[50px] items-start p-5 pt-10 px-20'>
                                 <Image src={'/assets/images/corporate.jpg'} width={700} height={700}></Image>
                                 <div className='flex flex-col gap-3 drop2-container'>
-                                    <h2 className='text-xl'>Consultancy</h2>
-                                    <Link href='#'><h4 >API Integration</h4></Link>
-                                    <Link href='#'><h4 >API Integration</h4></Link>
-                                    <Link href='#'><h4 >API Integration</h4></Link>
-                                    <Link href='#'><h4 >API Integration</h4></Link>
-                                    <Link href='#'><h4 >API Integration</h4></Link>
+                                    <h2 className='text-xl'>Company</h2>
+                                    <Link href='#'><h4 >About us</h4></Link>
+                                    <Link href='#'><h4 >Team</h4></Link>
+                                    <Link href='#'><h4 >Careers</h4></Link>
+                                    <Link href='#'><h4 >Contacts</h4></Link>
+
 
                                 </div>
                             </div>
