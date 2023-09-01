@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Livvic:wght@100;200;300;400;500;600;700;800;900');
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Playfair+Display&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html,
+body {
+    width: 100%;
+    height: 100;
+    scroll-behavior: smooth;
+    
+}
+
+/* body::-webkit-scrollbar{
+    width: 0;
+} */
+
+
+.line {
+    @apply border border-black w-[48px] mt-2.5
+}
+
+.solution {
+    position: relative;
+}
+
+.solution:hover .drop1,
+.solution:focus .drop1 .solution:focus-within .drop1 {
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+    transform: translateY(18px);
+    transition-delay: 0s, 0s, 0.3s;
+}
+
+.corporate {
+    position: relative;
+}
+
+.corporate:hover .drop2,
+.corporate:focus .drop2 .corporate:focus-within .drop2 {
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+    transform: translateY(18px);
+    transition-delay: 0s, 0s, 0.3s;
+}
+
+
+
+
+.drop1 {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    left: -36.5vw;
+    width: 105vw;
+    transform: translateY(-3em);
+    z-index: -1;
+    transition: all 0.3s ease 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+
+}
+
+.drop2 {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    left: -54vw;
+    width: 105vw;
+    transform: translateY(-3em);
+    z-index: -1;
+    transition: all 0.3s ease 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+
+}
+.nav-btn{
+    position: relative;
+}
+.drop3 {
+    visibility: hidden;
+    opacity: 0;
+    /* height: 0; */
+    position: absolute;
+    top: 90%;
+    left: -84vw;
+    width: 105vw;
+    transform: translateY(-3em);
+    z-index: -1;
+    transition: all 0.6s ease 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+
+}
+
+.drop3-resp{
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+    transform: translateY(18px);
+    transition-delay: 0s, 0s, 0.5s;
+
+}
+.line1,.line3{
+    transition: all 0.5s;
+}
+
+.line1-rot{
+    transform: rotate(30deg);
+    transform-origin: left;
+    
+}
+.line3-rot{
+    transform: rotate(-30deg);
+    transform-origin: left;
+    
+}
+.line2{
+    transition: all 0.1s;
+}
+.line2-resp{
+    opacity: 0;
+}
+
+
+.drop2-container h4 {
+    transition: all 0.4s;
+}
+
+.drop2-container h4:hover {
+    color: #3CEDB7;
+}
+
+.drop1-container h4 {
+    transition: all 0.4s;
+}
+
+.drop1-container h4:hover {
+    color: #3CEDB7;
+}
+
+.content{
+    scroll-behavior: smooth;
+}
+
+.content::-webkit-scrollbar{
+    height: 0;
+    width: 0;
+}
+
+.card-container{
+    min-width: 350px;
+}
+.arrow-btn{
+    transition: all 0.5s;
+}
+
+.arrow-btn:hover{
+    background-color: #3CEDB7 !important;
+    border: 2px solid #3CEDB7 !important;
+
+}
+.insight-btn{
+    transition: all 0.5s;
+}
+.insight-btn:hover{
+    background-color: #3CEDB7 ;
+    border-color: #3CEDB7 ;
+    color: #000;
+}
+#btn-left{
+    border: 2px solid #7F7F7F;
+    color: #7F7F7F;
+}
+#btn-right{
+    border: 2px solid #000;
+    color: #000;
+}
+
+.page6-btn{
+    /* transition: all 0.3s; */
+    padding-bottom: 10px;
+    border-bottom: 2px solid transparent;
+}
+
+.page6-btn:hover,.page6-btn:focus{
+    color: blue;
+    
+    border-bottom:2px solid blue;
+
+}
+
+.btn-container input{
+    outline: none;
+} 
+
+.btn-container i{
+    color: blue;
+}
+
+.footer-links:hover{
+    color: #3CEDB7;
+}
+.footer-links{
+    transition: all 0.5s;
+    font-weight: 500 !important;
+}
+
+/* #arrow{
+    opacity: 0;
+} */
+
